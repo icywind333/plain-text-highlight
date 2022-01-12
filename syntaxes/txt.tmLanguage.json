@@ -15,28 +15,28 @@
 	"repository": {
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.txt",
+				"name": "keyword.control",
 				"match": "\\b(if|while|for|return)\\b"
 			}]
 		},
 		"strings": {
-			"name": "string.quoted.double.txt",
+			"name": "string.quoted.double",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.txt",
+					"name": "constant.character.escape",
 					"match": "\\\\."
 				}
 			]
 		},
 		"strings.single": {
-			"name": "string.quoted.single.txt",
+			"name": "string.quoted.single",
 			"begin": "'",
 			"end": "'",
 			"patterns": [
 				{
-					"name": "constant.character.escape.txt",
+					"name": "constant.character.escape",
 					"match": "\\\\."
 				}
 			]
