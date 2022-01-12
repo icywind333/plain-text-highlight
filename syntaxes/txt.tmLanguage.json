@@ -7,9 +7,6 @@
 		},
 		{
 			"include": "#strings"
-		},
-		{
-			"include": "#strings.single"
 		}
 	],
 	"repository": {
