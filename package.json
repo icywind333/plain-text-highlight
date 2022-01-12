@@ -1,0 +1,25 @@
+{
+    "name": "plain-text-highlight",
+    "displayName": "Plain Text Highlight",
+    "description": "Highlight words of plain textnd sentences of plain text",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "txt",
+            "aliases": ["Plain Text", "txt"],
+            "extensions": [".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "txt",
+            "scopeName": "source.txt",
+            "path": "./syntaxes/txt.tmLanguage.json"
+        }]
+    }
+}
